@@ -29,3 +29,44 @@ nav {
 .active {
 	font-weight: 700;
 }
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 84px;
+}
+
+.txt-heading {
+	width: 445px;
+}
+
+.txt-heading h1 {
+	font-size: 48px;
+	line-height: 56px;
+	color: black;
+	font-weight: 700;
+	margin-bottom: 25px;
+
+}
+
+.txt-heading p {
+	color: #7D7987;
+	font-size: 21px;
+	line-height: 32px;
+	margin-bottom: 45px;
+}
+
+.btn {
+	padding: 0 40px;
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+	border-radius: 55px;
+	line-height: 60px;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #458FF6;
+}
