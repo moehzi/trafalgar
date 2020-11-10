@@ -145,3 +145,67 @@ header {
 .services button.btn-services {
 	margin: auto;
 }
+
+.typography {
+	display: flex;
+	align-items: center;
+}
+
+.illu-typo {
+	margin-right: 137px;
+}
+
+.txt-typograph {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 486px;
+}
+
+.garis-typo {
+	width: 56px;
+	height: 2px;
+	border-radius: 5px;
+	background-color: black;
+	margin: 32px 0;
+}
+
+.txt-typograph h2 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 56px;
+	width: 480px;
+}
+
+.txt-typograph p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #7D7987;
+	width: 450px;
+	line-height: 30px;
+	margin-bottom: 36px;
+}
+
+.txt-typograph button {
+	align-self: flex-start;
+	margin-right: 0;
+}
+
+.reverse {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	margin: 144px auto;
+}
+
+.reverse .txt-typograph {
+	margin-left: 145px;
+}
+
+.reverse h2 {
+	width: 254px;
+}
+
+.reverse button span {
+	margin-left: 8px;
+}
