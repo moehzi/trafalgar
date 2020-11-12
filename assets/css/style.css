@@ -543,4 +543,27 @@ img.hiasan-footer {
 		margin: auto;
 	}
 
+
+	.desc-testimonials {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.profile {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	p.profile-desc {
+		width: 50vh;
+		margin-left: 0;
+		text-align: center;
+		margin-top: 32px;
+	}
+
+	.profile-img img {
+		margin-right: 0;
+	}
+
 }
