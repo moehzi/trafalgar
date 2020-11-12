@@ -515,4 +515,32 @@ img.hiasan-footer {
 		text-align: center;
 	}
 
+	.typography {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.illu-typo {
+		align-items: center;
+		margin: auto;
+	}
+
+	.illu-typo img {
+		width: 70vh;
+		margin-bottom: 32px;
+	}
+
+	.txt-typograph {
+		text-align: center;
+		align-items: center;
+	}
+
+	.reverse .txt-typograph {
+		margin-left: 0px;
+	}
+
+	.txt-typograph button.btn {
+		margin: auto;
+	}
+
 }
