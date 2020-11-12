@@ -582,6 +582,10 @@ img.hiasan-footer {
 		flex-direction: column;
 	}
 
+	img.hiasan1 {
+		top: 180;
+	}
+
 	.card-article {
 		margin: 32px 0;
 	}
