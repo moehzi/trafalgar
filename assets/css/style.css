@@ -475,7 +475,9 @@ img.hiasan-footer {
 
 @media only screen and (max-width:768px) {
 	.container {
-		width: 90%;
+		width: 80%;
+		padding: 20px;
+		margin: auto;
 	}
 
 	.menu-toggle {
@@ -581,12 +583,19 @@ img.hiasan-footer {
 
 	}
 
+
 	.footer-list {
 		display: flex;
 		justify-content: space-between;
 		gap: 0;
+		margin: 0;
+		padding: 0;
 	}
+}
 
-
-
+@media only screen and (max-width:500px) {
+	.footer-list {
+		display: flex;
+		flex-direction: column;
+	}
 }
