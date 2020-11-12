@@ -498,4 +498,21 @@ img.hiasan-footer {
 		margin-bottom: 32px;
 	}
 
+	.txt-services p {
+		width: 100%;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.card {
+		align-items: center;
+		margin: 15px 0;
+	}
+
+	.txt-card {
+		text-align: center;
+	}
+
 }
