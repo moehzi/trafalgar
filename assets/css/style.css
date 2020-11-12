@@ -475,7 +475,7 @@ img.hiasan-footer {
 
 @media only screen and (max-width:768px) {
 	.container {
-		width: 90%;
+		width: auto;
 		padding: 20px;
 		margin: auto;
 	}
