@@ -552,6 +552,7 @@ img.hiasan-footer {
 
 	.testimonials {
 		padding: 18px;
+		width: 100%;
 	}
 
 	.desc-testimonials {
@@ -561,6 +562,7 @@ img.hiasan-footer {
 
 	.txt-testimonials h2 {
 		font-size: 24px;
+		line-height: 130%;
 	}
 
 	.profile {
@@ -573,7 +575,12 @@ img.hiasan-footer {
 		width: auto;
 		margin-left: 0;
 		text-align: center;
-		margin-top: 32px;
+		margin-top: 8px;
+		line-height: 140%;
+	}
+
+	.profile-name p {
+		line-height: 150%;
 	}
 
 	.garis-testi {
@@ -582,6 +589,7 @@ img.hiasan-footer {
 
 	.profile-img img {
 		margin-right: 0;
+		width: 90%;
 	}
 
 	.row-article {
