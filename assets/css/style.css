@@ -386,13 +386,6 @@ img.hiasan1 {
 	z-index: -1;
 }
 
-img.oval {
-	position: absolute;
-	top: 0;
-	right: -67;
-	z-index: -1;
-}
-
 footer {
 	display: flex;
 	background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
