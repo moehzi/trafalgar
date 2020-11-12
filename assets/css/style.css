@@ -401,10 +401,15 @@ img.hiasan1 {
 footer {
 	display: flex;
 	background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 90px 190px;
 	position: relative;
 
+}
+
+.footer-list {
+	display: flex;
+	gap: 220px;
 }
 
 .info-footer p {
@@ -472,9 +477,9 @@ img.hiasan-footer {
 	display: none;
 }
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:768px) {
 	.container {
-		width: 576px;
+		width: 768px;
 	}
 
 	.menu-toggle {
@@ -526,7 +531,7 @@ img.hiasan-footer {
 	}
 
 	.illu-typo img {
-		width: 70vh;
+		width: 50vh;
 		margin-bottom: 32px;
 	}
 
@@ -573,5 +578,19 @@ img.hiasan-footer {
 	.card-article {
 		margin: 32px 0;
 	}
+
+	footer {
+		flex-direction: column;
+		padding: 32px;
+
+	}
+
+	.footer-list {
+		display: flex;
+		justify-content: space-between;
+		gap: 0;
+	}
+
+
 
 }
