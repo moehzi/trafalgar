@@ -27,6 +27,14 @@ nav {
 	margin-right: 40px;
 }
 
+.nav-items ul li {
+	list-style: none;
+}
+
+.nav-items ul {
+	display: flex;
+}
+
 .active {
 	font-weight: 700;
 }
@@ -428,4 +436,33 @@ img.hiasan-footer {
 	bottom: 0;
 	left: 10;
 	position: absolute;
+}
+
+.menu-toggle {
+	display: flex;
+	flex-direction: column;
+	height: 20px;
+	justify-content: space-between;
+}
+
+.menu-toggle span {
+	display: block;
+	width: 20px;
+	height: 3px;
+	background-color: #1F1534;
+}
+
+@media only screen and (max-width:576px) {
+	.menu-toggle {
+		display: flex;
+	}
+
+	.nav-items {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100v;
+		flex-direction: column;
+	}
+
 }
