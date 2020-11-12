@@ -533,15 +533,13 @@ img.hiasan-footer {
 
 	.illu-typo {
 		margin-right: 0;
-		width: 80%;
+		width: 100%;
 	}
-
-
 
 	.txt-typograph {
 		text-align: center;
 		align-items: center;
-		width: 60%;
+		width: 100%;
 	}
 
 	.reverse .txt-typograph {
