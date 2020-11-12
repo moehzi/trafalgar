@@ -10,10 +10,6 @@
 	line-height: 152%;
 }
 
-body {
-	overflow-x: hidden;
-}
-
 .container {
 	padding: 24px 60px 0 60px;
 	width: 1366px;
