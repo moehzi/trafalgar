@@ -551,12 +551,16 @@ img.hiasan-footer {
 	}
 
 	.testimonials {
-		padding: 8px;
+		padding: 18px;
 	}
 
 	.desc-testimonials {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.txt-testimonials h2 {
+		font-size: 24px;
 	}
 
 	.profile {
@@ -570,6 +574,10 @@ img.hiasan-footer {
 		margin-left: 0;
 		text-align: center;
 		margin-top: 32px;
+	}
+
+	.garis-testi {
+		margin: 18px auto;
 	}
 
 	.profile-img img {
