@@ -47,7 +47,7 @@ header {
 }
 
 .txt-heading {
-	width: 445px;
+	width: 80%;
 }
 
 .txt-heading h1 {
@@ -103,7 +103,7 @@ header {
 
 .txt-services p {
 	text-align: center;
-	width: 952px;
+	width: 80%;
 	line-height: 30px;
 	margin: auto;
 	color: #7D7987;
@@ -496,6 +496,10 @@ img.hiasan-footer {
 		flex-direction: column-reverse;
 	}
 
+	.txt-heading {
+		width: auto;
+	}
+
 	.illu-header img {
 		width: 90%;
 		margin-bottom: 32px;
@@ -521,6 +525,10 @@ img.hiasan-footer {
 	.typography {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.txt-typograph p {
+		width: auto;
 	}
 
 	.illu-typo {
@@ -559,7 +567,7 @@ img.hiasan-footer {
 	}
 
 	p.profile-desc {
-		width: 50vh;
+		width: auto;
 		margin-left: 0;
 		text-align: center;
 		margin-top: 32px;
@@ -575,6 +583,21 @@ img.hiasan-footer {
 
 	.card-article {
 		margin: 32px 0;
+	}
+
+	.slide {
+		display: flex;
+		justify-content: center;
+		margin-top: -90px;
+		align-items: center;
+	}
+
+	.dot1 {
+		margin: 0 8px;
+	}
+
+	.dot {
+		margin: 0 32px;
 	}
 
 	footer {
@@ -597,5 +620,16 @@ img.hiasan-footer {
 	.footer-list {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
+		gap: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	.info-footer p {
+		color: white;
+		font-size: 18px;
+		width: auto;
+		line-height: 156%;
 	}
 }
