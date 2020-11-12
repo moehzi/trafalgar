@@ -552,6 +552,9 @@ img.hiasan-footer {
 		margin: auto;
 	}
 
+	.testimonials {
+		padding: 8px;
+	}
 
 	.desc-testimonials {
 		flex-direction: column;
